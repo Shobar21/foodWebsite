@@ -9,11 +9,21 @@ function Navbar() {
       </div>
       <div className='lists'>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Menu</li>
-          <li>Reviews</li>
-          <li>Contact</li>
+          <li>
+            <a href='#home'>Home</a>
+          </li>
+          <li>
+            <a href='#menu'>Menu</a>
+          </li>
+          <li>
+            <a href='#about'>About</a>
+          </li>
+          <li>
+            <a href='#reviews'>Reviews</a>
+          </li>
+          <li>
+            <a href='#contact'>Contact</a>
+          </li>
         </ul>
       </div>
     </NavbarContainer>
@@ -28,7 +38,10 @@ const NavbarContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 14px;
-  position: relative;
+  position: sticky; /* Keeps navbar visible while scrolling */
+  top: 0;
+  background: #000; /* Add a background color for better visibility */
+  z-index: 1000;
 
   padding-left: 80px;
   padding-right: 80px;
@@ -36,7 +49,7 @@ const NavbarContainer = styled.div`
   .lists {
     ul {
       display: flex;
-      gap: 24px;
+      gap: 50px;
       list-style: none;
       margin: 0;
       padding: 0;
@@ -45,9 +58,15 @@ const NavbarContainer = styled.div`
     li {
       cursor: pointer;
       font-size: 20px;
-      color: white;
     }
-    li:hover {
+
+    a {
+      text-decoration: none;
+      color: white;
+      transition: all 0.3s;
+    }
+
+    a:hover {
       text-decoration: underline;
       text-decoration-thickness: 0.2em;
       text-underline-offset: 0.1em;

@@ -5,7 +5,6 @@ import MainContainer from '../components/Home/MainContainer'
 function Home() {
   return (
     <>
-      <Navbar />
       <MainContainer />
     </>
   )

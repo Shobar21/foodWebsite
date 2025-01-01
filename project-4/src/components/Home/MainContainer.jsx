@@ -29,7 +29,9 @@ function MainContainer() {
   return (
     <MainWrapper>
       <TextSection>
-        <h1>Enjoy Our</h1>
+        <h1>
+          <span style={{ color: 'tomato' }}>Enjoy</span> Our
+        </h1>
         <h1>Delicious Meal</h1>
         <p>
           Discover the best recipes from around the world

@@ -34,15 +34,15 @@ const FoodContainer = styled.div`
   background-size: cover;
   background-position: center;
   width: 100vw;
-  min-height: 100vh; /* Set min-height instead of fixed height */
+  min-height: 80vh; /* Set min-height instead of fixed height */
   /* top: 32%; */
   margin: 0;
   padding: 0;
   position: absolute;
   left: 0;
   right: 0;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
-  overflow-y: auto; /* Allow vertical scrolling if content overflows */
+  overflow-x: hidden !important; /* Prevent horizontal scrolling */
+  overflow-y: auto;
 `
 const FoodCards = styled.div`
   display: flex;

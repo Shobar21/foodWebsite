@@ -5,7 +5,7 @@
   /* overflow: hidden; */
 }
 body {
-  background-color: #323334;
-  color: white;
+  background-color: #000 !important;
+  color: white !important;
   /* min-height: 100vh; */
 }

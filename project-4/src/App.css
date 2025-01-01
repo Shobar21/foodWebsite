@@ -1,1 +1,75 @@
+html body {
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
 
+.logo {
+  font-weight: 100;
+}
+.containt {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.containt h1 {
+  font-size: 48px;
+  font-weight: 800;
+  max-width: 80%;
+}
+.containt p {
+  font-weight: 500;
+}
+
+.containers {
+  /* background-color: #000000; */
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 700px;
+}
+.top-btn {
+  display: flex;
+  gap: 32px;
+}
+.Form {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 4rem;
+}
+.Form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.form_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.form_container input {
+  height: 40px;
+  padding: 0 8px;
+}
+.form_container label {
+  font-size: 18px;
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  color: black;
+  background-color: white;
+  padding: 0 10px;
+}
+
+.main-container {
+  display: flex;
+
+  justify-content: end;
+  flex-direction: column;
+}
