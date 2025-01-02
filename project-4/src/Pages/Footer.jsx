@@ -15,8 +15,8 @@ function Footer() {
           <div className='col-md-4 mb-3 heading-icons'>
             <img src='/logo.svg' alt='logo' />
             <p className='fot-para' style={{ color: '#fff' }}>
-              At Foody Zone, we deliver Delicious Dishes for our clients we hope
-              they like .
+              At Foody Zone, we deliver Delicious Dishes and exclusive deals,
+              delightful flavors, and unforgettable dining experiences!
             </p>
             {/* Social Icons */}
             <div className='d-flex justify-content-center justify-content-md-start footer-icons'>
